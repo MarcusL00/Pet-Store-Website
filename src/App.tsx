@@ -1,4 +1,5 @@
-import Nav from "./Components/Nav.jsx";
+import Nav from "./Components/Nav.tsx";
+import Footer from "./Components/Footer.tsx"
 
 const App = () => {
 
@@ -7,7 +8,14 @@ const App = () => {
     <>
     <div className=" bg-slate-900">
       <Nav/>
-      <h2>REACT APP</h2>
+    </div>
+
+
+
+
+
+    <div className="bg-lime-900">
+      <Footer/>
     </div>
     </>
   );
